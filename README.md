@@ -167,3 +167,31 @@ docker rmi rentalservice
 ---
 
 Projet prêt à être exécuté sur **macOS** et **Windows**
+
+# TP2
+
+## Ajout d'un deuxième microservice PHP
+
+![screen](screen/image1.png)
+
+## Modifcation du fichier Java pour mettre une requête HTTP
+
+![screen](screen/image2.png)
+
+## Création du fichier docker-compose.yml
+
+![screen](screen/image3.png)
+
+## Build Java
+
+![screen](screen/image4.png)
+
+## Création et lancement de docker compose
+
+![screen](screen/image5.png)
+
+![screen](screen/image6.png)
+
+## Rendu URL
+
+![screen](screen/image7.png)
