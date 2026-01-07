@@ -57,7 +57,7 @@ Avant de lancer Docker, le projet doit être **compilé** afin de générer le f
 gradlew build
 ```
 
-👉 Le JAR généré se trouve dans :
+Le JAR généré se trouve dans :
 
 ```
 build/libs/RentalService-0.0.1-SNAPSHOT.jar
@@ -83,9 +83,9 @@ EXPOSE 8080
 
 ---
 
-## 🏗️ Création de l’image Docker
+## Création de l’image Docker
 
-⚠️ Se placer **dans le dossier \*\***RentalService\*\*.
+Se placer **dans le dossier RentalService**.
 
 ### Commande (Mac & Windows)
 
@@ -184,11 +184,23 @@ Projet prêt à être exécuté sur **macOS** et **Windows**
 
 ## Build Java
 
+```bash
+./gradlew build
+```
+
 ![screen](screen/image4.png)
 
 ## Création et lancement de docker compose
 
+```bash
+docker-compose build
+```
+
 ![screen](screen/image5.png)
+
+```bash
+docker-compose up
+```
 
 ![screen](screen/image6.png)
 
